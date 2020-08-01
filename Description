@@ -1,0 +1,9 @@
+Description :
+The main aim of the application is to create a web scraper that scrapes a stock website and gets the user the most active, the gainers and the losers in the stock market. 
+The program scrapes the webpages to fetch the details of the stocks and stores the values in a csv file. 
+The values include Open, Previos close, Market Cap and volume. 
+These values are stored in the csv along with the status of the stock and its ticker symbol.
+
+The program at first, takes a few seconds to enter the data into the csv file. Then it asks the user to present an input symbol and the corresponding values are printed on the console. The user is asked about continuing the process again. If given N or n, then the program stops.
+
+website used to fetch the stock specific values : https://finance.yahoo.com/quote/
